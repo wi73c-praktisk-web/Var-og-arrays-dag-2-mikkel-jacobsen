@@ -1,6 +1,6 @@
 //ØVELSE 1
 var navn = "Mikkel";
-var alder = "20";
+var alder = "200";
 var tekst = `Mit navn er ${navn} og jeg er ${alder} år gammel.`;
 console.log(tekst);
 
@@ -15,6 +15,7 @@ console.log(pris_uden_moms_02);
 //ØVELSE 3
 var forste = 10;
 var anden = 20;
-forste = [anden, anden = forste][0];
+anden = forste;
+forste = forste + forste;
 console.log(forste);
 console.log(anden);
